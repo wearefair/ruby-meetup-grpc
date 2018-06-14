@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service PersonService {
+  rpc GetPerson(GetPersonRequest) returns (Person);
+}
+
+message GetPersonRequest {
+  int32 id = 1;
+}
+
+message Person {
+  string name = 1;
+  int32 id = 2;
+  string email = 3;
+}

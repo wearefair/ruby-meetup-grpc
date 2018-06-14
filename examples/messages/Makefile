@@ -4,7 +4,7 @@ person_pb.rb:
 	docker run -v $$(pwd):/defs namely/protoc-all:1.11 -f person.proto -l ruby -o /defs
 
 run: person_pb.rb
-	bundle exec ruby -I example.rb
+	bundle exec ruby -I ./ example.rb
 
 docker-run:
 	docker run ruby-meetup-grpc-message

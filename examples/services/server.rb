@@ -11,7 +11,7 @@ class PersonServicer < PersonService::Service
     log 'Got request', request
     person = @people_db[request.id]
     raise GRPC::NotFound, "Person #{request.id} does not exist" unless person
-    return person
+    person
   end
 end
 

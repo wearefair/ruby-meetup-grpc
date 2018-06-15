@@ -1,8 +1,7 @@
 require 'log'
 require 'person_pb'
 
-log 'Blank person', Person.new()
-
+logs
 person = Person.new(name: 'Marshall', id: 12345)
 person.email = 'marshall@email.com' # set an attribute directly
 log 'Person with attributes', person

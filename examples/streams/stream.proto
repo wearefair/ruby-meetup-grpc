@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+service StreamingEcho {
+  rpc Echo(stream EchoMessage) returns (stream EchoMessage);
+}
+
+message EchoMessage {
+  string msg = 1;
+}

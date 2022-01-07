@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    google-protobuf (3.5.1.2-universal-darwin)
+    google-protobuf (3.19.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  google-protobuf (~> 3.5.1)
+  google-protobuf (~> 3.19.2)
 
 BUNDLED WITH
    1.16.2

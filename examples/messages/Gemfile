@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'google-protobuf', '~> 3.5.1'
+gem 'google-protobuf', '~> 3.19.2'

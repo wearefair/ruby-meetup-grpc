@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'grpc', '~> 1.11.0'
+gem 'grpc', '~> 1.53.0'
